@@ -34,6 +34,8 @@ If not, then whose view differs from whom??
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+This problem is a categorical problem. After looking into it, we found a problem where there are three different factors. White, black, and in between. Everyone else is in a category called other. Cappun has two different variables: those who are for and those who are against.   
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
