@@ -73,16 +73,18 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-The majority of white people are in favor, the total is about 67%. While only 47% of black people support it. Others had a value of 61.25. The majority of blacks opposed capital punishment, with a value of 52.76, and the value of whites is 32.25. Others were 38.75. 
+The majority of white people are in favor, the total is about 67%. While only 47% of black people support it. Others had a value of 61.25. The majority of blacks opposed capital punishment, with a value of 52.76, and the value of whites is 32.25. Others was 38.75. 
 
 
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+```{r}
+fisherXY(mydata$cappun,mydata$race,printAll = TRUE)
+```
 
-
+After looking at the results. It gave the P-value of the whites and the blacks. White, blacks, and others. For the whites and the blacks, the p-value was so low, showing that there is something statistically different between them. The other ones showed a p-value that wasn't as low, showing that there isn't much difference between them. On the master branch they are all different, but here only white and black are different
 
 # Discussion and Conclusion
 
