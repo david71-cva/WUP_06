@@ -57,9 +57,11 @@ basicC + geom_bar(stat="identity",position="dodge")
 
 #Now for percentage plot
 
-basicCC <- ggplot(dd3,aes(x=cappun,y=prcnt*100,fill=race)) 
+basicCC <- ggplot(dd3,aes(x=race,y=prcnt*100,fill=cappun)) 
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
+
+What the graph shows is that there are more people in the white range than in any other. What is most telling is that both branches are similar when it comes to white people and their support for it. It is easy to see that the black branch is not in favor of capital punishment. When you put all the branches they all add to 100. 
 
 ## Now with The Most data (fewer variables gives more data points)
 
@@ -99,3 +101,4 @@ The P-value from comparing both is very low, showing there is something differen
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
